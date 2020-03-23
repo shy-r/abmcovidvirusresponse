@@ -22,6 +22,7 @@ After a certain number of days - set by the sliders in the health inputs section
 And after a certain number of days set by the sliders if their infection isn’t severe, they recover - this model does not take into account deaths from the virus.
 
 There are various options to combat the virus, which can be chosen by the different switches:
+
 Close schools
 this shuts down schools, causing teachers and students to study from home.
 
