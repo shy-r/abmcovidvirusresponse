@@ -1,4 +1,4 @@
-# Simulation Model of the Health and Economic Trade-offs in Responses to Covid-19 Type Viruses
+# Simulation Model of the Health and Economic Impacts in Responses to Covid-19 Type Viruses
 This Netlogo model tries to simulate the spread of the viruses like Covid-19 and the resulting health and economic impacts of virus responses in a virtual city.
 
 The model supposes 40 households (H) in a city and 100 people in these households. The ages of the people in the model are distributed by 1) retired age 65 or older, 2) working age 18-64, or 3) school age under 18 based on the demographic sliders.
