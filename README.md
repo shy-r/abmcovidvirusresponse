@@ -16,7 +16,7 @@ If they have enough savings (more than the money needed to restock their fridge)
 
 Households pay rent every day, which is scaled based on a percentage of the total household income. This percentage is set by the sliders.
 
-Once the outbreak switch is toggled, three people at random get infected by a virus like the Coronavirus. Through contact with others at their house, their workplace, or their leisure location, they spread the virus with a certain probability of transmission set by the sliders - the model ignores incubation periods.
+Once the outbreak switch is toggled, three people at random get infected by a virus like Covid-19. Through contact with others at their house, their workplace, or their leisure location, they spread the virus with a certain probability of transmission set by the sliders - the model ignores incubation periods.
 
 After a certain number of days - set by the sliders in the health inputs section - the infected person gets admitted to the hospital if their disease becomes severe based on a probability dependent on their age.
 And after a certain number of days set by the sliders if their infection isn’t severe, they recover - this model does not take into account deaths from the virus.
