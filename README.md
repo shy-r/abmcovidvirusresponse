@@ -23,14 +23,14 @@ And after a certain number of days set by the sliders if their infection isn’t
 
 There are various options to combat the virus, which can be chosen by the different switches:
 
-Close schools
+Close schools:
 this shuts down schools, causing teachers and students to study from home.
 
-Close bars
+Close bars:
 this shuts down bars, and the workers do not get paid and have a freeday.
 
-Lockdown
+Lockdown:
 this shuts down all workplaces except grocery stores and hospitals, so those who can work from home do so, while those who can’t like bar and restaurant workers have a free day and do not get paid.
 
-Test and Isolate
+Test and Isolate:
 this provides testing kits to everyone and if they test positive, they choose to remain at home and work/study from home if they can.
