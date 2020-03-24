@@ -40,3 +40,5 @@ When running simulations, there is a set random-seed that is specified so that r
 As the simulation runs, the total money of all households and the money of households with bar and restaurant workers is displayed in one of the plots. Another plot shows the number of people who are infected, severely infected, and recovered.
 
 The counter for the simulation and the x-axis for the plots is in minutes. This is converted to hours and days and displayed in the monitors in the top-center of the model.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
