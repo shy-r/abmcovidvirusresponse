@@ -1,5 +1,5 @@
-# Simulation Model of the Health and Economic Trade-offs in Covid 19 response
-This Netlogo model tries to simulate the spread of the Coronavirus and the resulting health and economic impacts in a virtual city.
+# Simulation Model of the Health and Economic Trade-offs in Responses to Covid-19 Type Viruses
+This Netlogo model tries to simulate the spread of the viruses like Covid-19 and the resulting health and economic impacts in a virtual city.
 
 The model supposes 40 households (H) in a city and 100 people in these households. The ages of the people in the model are distributed by 1) retired age 65 or older, 2) working age 18-64, or 3) school age under 18 based on the demographic sliders.
 And each person is assigned to a household such that there is at least one legal adult above 18 years of age per household. To simplify the model, we suppose that people go to school until they are 18, work until they are 65, after which they retire and live until a maximum age of 90.
@@ -16,7 +16,7 @@ If they have enough savings (more than the money needed to restock their fridge)
 
 Households pay rent every day, which is scaled based on a percentage of the total household income. This percentage is set by the sliders.
 
-Once the outbreak switch is toggled, three people at random get infected by the Coronavirus. Through contact with others at their house, their workplace, or their leisure location, they spread the virus with a certain probability of transmission set by the sliders - the model ignores incubation periods.
+Once the outbreak switch is toggled, three people at random get infected by a virus like the Coronavirus. Through contact with others at their house, their workplace, or their leisure location, they spread the virus with a certain probability of transmission set by the sliders - the model ignores incubation periods.
 
 After a certain number of days - set by the sliders in the health inputs section - the infected person gets admitted to the hospital if their disease becomes severe based on a probability dependent on their age.
 And after a certain number of days set by the sliders if their infection isn’t severe, they recover - this model does not take into account deaths from the virus.
