@@ -5,7 +5,7 @@ The model supposes 40 households (H) in a city and 100 people in these household
 And each person is assigned to a household such that there is at least one legal adult above 18 years of age per household. To simplify the model, we suppose that people go to school until they are 18, work until they are 65, after which they retire and live until a maximum age of 90.
 
 The model has 2 offices (O), 2 schools (S), 5 parks (P), 5 grocery stores (G), and 5 bars/restaurants (BR). And 1 hospital (+).
-Normal working adults between 18 and 65 in the household go to work at one of these places from Monday to Friday from 7am to 3pm, while children go to school, and those who are above 65 stay at home or visit a park, a bar/restaurant, or a grocery store. After 3pm they have leisure time.
+Normal working adults between 18 and 65 in the household go to work at one of these places from Monday to Friday from 7am to 3pm, while children go to school, and those who are above 65 stay at home or visit a park, a bar/restaurant, or a grocery store. After 3pm they have leisure time. The distribution of people by job title is shown in the barplot on the top right corner of the model.
 
 Grocery store workers and bar/restaurant workers have a day shift from 7am to 3pm and a night shift from 3pm to 11pm. While doctors have 3 shifts from 7am to 3pm, from 3pm to 11pm, and from 11pm to 7am to ensure 24/7 care. These workers also work during the weekends.
 Workers get paid a daily salary - determined by the sliders - which then goes to their household savings after each workday. Each household gets a certain amount of money at the start, which can be set in the income inputs. For simplicity, the income of businesses and business owners are not considered in this model.
@@ -34,3 +34,9 @@ this shuts down all workplaces except grocery stores and hospitals, so those who
 
 Test and Isolate:
 this provides testing kits to everyone and if they test positive, they choose to remain at home and work/study from home if they can.
+
+When running simulations, there is a set random-seed that is specified so that results from the different options can be compared. This random seed can be changed in the code. If you want to generate a new random city every time, turn on the new_city switch.
+
+As the simulation runs, the total money of all households and the money of households with bar and restaurant workers is displayed in one of the plots. Another plot shows the number of people who are infected, severely infected, and recovered.
+
+The counter for the simulation and the x-axis for the plots is in minutes. This is converted to hours and days and displayed in the monitors in the top-center of the model.
